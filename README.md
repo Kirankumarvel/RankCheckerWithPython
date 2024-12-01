@@ -13,24 +13,24 @@ Ensure you have Python installed on your machine. You can download it from pytho
 
 Navigate to your project directory:
 
-bash
+```bash
 cd path\to\RankChecker
 
 Create a virtual environment:
 
-bash
+```bash
 python -m venv venv
 
 Activate the virtual environment:
 
 On Windows:
 
-bash
+```bash
 venv\Scripts\activate
 
 On macOS/Linux:
 
-bash
+```bash
 source venv/bin/activate
 
 ## Step 2: Create the requirements.txt File
