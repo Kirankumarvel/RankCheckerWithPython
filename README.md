@@ -1,8 +1,6 @@
 # RankCheckerWithPython
 RankChecker is a Python-based web scraping tool designed to retrieve and analyze search rankings for specific keywords across multiple competitor websites. Utilizing libraries such as requests, BeautifulSoup, and openpyxl, this script automates the process of fetching ranking data and exporting it to an Excel file.
 
-**RankChecker**
-A simple Python project to check rankings using various libraries.
 Step 1: Set Up Your Environment
 Install Python
 Ensure you have Python installed on your machine. You can download it from python.org.
@@ -28,8 +26,7 @@ On macOS/Linux:
 bash
 source venv/bin/activate
 
-**Step 2: Create the requirements.txt File
-**
+Step 2: Create the requirements.txt File
 Create a file named requirements.txt in your project directory.
 Add the following lines to requirements.txt:
 text
@@ -37,8 +34,7 @@ requests
 beautifulsoup4
 openpyxl
 
-**Step 3: Install Required Libraries
-**
+Step 3: Install Required Libraries
 Install the libraries listed in requirements.txt using pip:
 bash
 pip install -r requirements.txt
