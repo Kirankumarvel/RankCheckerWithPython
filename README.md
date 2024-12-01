@@ -28,7 +28,8 @@ On macOS/Linux:
 bash
 source venv/bin/activate
 
-Step 2: Create the requirements.txt File
+**Step 2: Create the requirements.txt File
+**
 Create a file named requirements.txt in your project directory.
 Add the following lines to requirements.txt:
 text
@@ -36,7 +37,8 @@ requests
 beautifulsoup4
 openpyxl
 
-Step 3: Install Required Libraries
+**Step 3: Install Required Libraries
+**
 Install the libraries listed in requirements.txt using pip:
 bash
 pip install -r requirements.txt
