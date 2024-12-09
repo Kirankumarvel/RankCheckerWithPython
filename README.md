@@ -1,5 +1,4 @@
-
-# RankCheckerWithPython
+# RankCheckerWithPython - RankMaster
 
 **RankChecker** is a Python-based web scraping tool designed to retrieve and analyze search rankings for specific keywords across multiple competitor websites. Utilizing libraries such as `requests`, `BeautifulSoup`, and `openpyxl`, this script automates the process of fetching ranking data and exporting it to an Excel file.
 
@@ -17,13 +16,19 @@ Ensure you have Python installed on your machine. You can download it from pytho
 2. Navigate to your project directory:
    ```bash
    cd path\to\RankChecker
+   ```
 3. Create and activate a virtual environment:
    ```bash
    python -m venv venv
+   ```
    On Windows:
+   ```bash
    venv\Scripts\activate
+   ```
    On macOS/Linux:
+   ```bash
    source venv/bin/activate
+   ```
 
 ## Step 2: Create the requirements.txt File
 
@@ -35,7 +40,7 @@ beautifulsoup4==4.10.0
 pandas==1.3.3
 halo==0.0.31
 termcolor==1.1.0
-
+```
 
 ## Step 3: Install Required Libraries
 
@@ -43,6 +48,7 @@ Install the libraries listed in `requirements.txt` using pip:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Step 4: Create the rank.py Script
 
@@ -50,7 +56,7 @@ Create a file named `rank.py` in your project directory. Copy and paste the foll
 
 ```python
 # Sample code goes here
-
+```
 
 ## Step 5: Customize HTML Parsing Logic
 
@@ -66,14 +72,13 @@ Locate the HTML element that contains the ranking information you want to scrape
 ### Update the Selector:
 Replace `desired-class` in the code with the actual class or ID of that element.
 
-
 ## Step 6: Run Your Script
 
 Open your terminal. Navigate to your project directory if you are not already there. Run the script with Python:
 
 ```bash
 python rank.py
-
+```
 
 ## Step 7: Check for Errors and Output
 
@@ -105,18 +110,18 @@ To avoid errors while executing Python scripts and managing dependencies, it’s
 
 ### Key Libraries and Installation Commands
 
-| Module Name | Installation Command          | Description                                                |
-|-------------|-------------------------------|------------------------------------------------------------|
-| bs4         | pip install beautifulsoup4    | Library for parsing HTML and XML documents.                |
-| halo        | pip install halo              | A library for creating beautiful command line spinners.    |
-| openpyxl    | pip install openpyxl          | A library for reading and writing Excel files.             |
-| requests    | pip install requests          | Library for making HTTP requests.                          |
-| pandas      | pip install pandas            | Data analysis and manipulation library.                    |
-| numpy       | pip install numpy             | Fundamental package for numerical computations in Python.  |
-| matplotlib  | pip install matplotlib        | Library for creating static, animated, and interactive visualizations in Python. |
-| flask       | pip install flask             | A lightweight WSGI web application framework.              |
-| pytest      | pip install pytest            | A framework for testing Python code.                       |
-| scikit-learn| pip install scikit-learn      | Machine learning library for Python.                       |
+| Module Name   | Installation Command          | Description                                                |
+|---------------|-------------------------------|------------------------------------------------------------|
+| bs4           | pip install beautifulsoup4    | Library for parsing HTML and XML documents.                |
+| halo          | pip install halo              | A library for creating beautiful command line spinners.    |
+| openpyxl      | pip install openpyxl          | A library for reading and writing Excel files.             |
+| requests      | pip install requests          | Library for making HTTP requests.                          |
+| pandas        | pip install pandas            | Data analysis and manipulation library.                    |
+| numpy         | pip install numpy             | Fundamental package for numerical computations in Python.  |
+| matplotlib    | pip install matplotlib        | Library for creating static, animated, and interactive visualizations in Python. |
+| flask         | pip install flask             | A lightweight WSGI web application framework.              |
+| pytest        | pip install pytest            | A framework for testing Python code.                       |
+| scikit-learn  | pip install scikit-learn      | Machine learning library for Python.                       |
 
 ### Best Practices to Avoid Errors
 
@@ -169,6 +174,4 @@ To avoid errors while executing Python scripts and managing dependencies, it’s
 ---
 
 Now you're ready to use RankChecker! Happy scraping!
-```
 
-You can update your `README.md` file with the above content to include the additional section on avoiding errors.
